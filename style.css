@@ -1,0 +1,68 @@
+@import url('https://fonts.googleapis.com/css2?family=Bodoni+Moda:ital,opsz,wght@0,6..96,400..900;1,6..96,400..900&family=Lora:ital,wght@0,400..700;1,400..700&family=Roboto:wght@400;700&display=swap');
+
+*{
+    padding: 0px;
+    margin: 0px;
+    box-sizing: border-box;
+}
+.main{
+    width: 100%;
+    height: 100vh;
+    background-image: url('https://img.freepik.com/premium-photo/watercolor-light-green-hand-painted-background-with-green-golden-leaves-bouquets_202769-11342.jpg');
+}
+.overlay{
+    width: 100%;
+    height: 100%;
+    display: flex;
+    flex-direction: column;
+    background-color: rgba(0, 0, 0, 0.6);
+}
+h1{
+    font-style: "Bodoni Moda", serif;
+    color: white;
+    padding-top: 140px;
+    padding-bottom: 10px;
+    font-weight: 100;
+    font-size: 60px;
+    text-align: center;
+    font-family:  "Bodoni Moda", serif;
+}
+h1.date{
+    text-align: center;
+    flex-direction: column;
+    padding-top: 0.5rem;
+    font-weight: 100px;
+    color: white;
+    font-size: 39px;
+}
+.col{
+    width: 1000px;
+    height: 100px;
+    color: white;
+    margin: 20px auto;
+    align-items: center;
+    display: flex;
+    text-align: center;
+    justify-content: center;
+    cursor: pointer;
+}
+.col div{
+    width: 200px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    height: 100px;
+    font-size: 20px;
+}
+input{
+    display: block;
+    text-align: center;
+    height: 70px ;
+    width: 120px;
+    background-color: rgba(255, 255, 255, 0.2);
+    border: transparent;
+    border-radius: 10px;
+    font-size: 60px;
+    color: #ffffff ;
+}
